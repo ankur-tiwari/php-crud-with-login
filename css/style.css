@@ -1,0 +1,26 @@
+.login {
+    display:flex;
+    align-items:center;
+    color: #333;
+    background-color: #00000040;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.pull-right {
+    float: right;
+}
+
+.inline-button {
+    display: -webkit-inline-box;
+}
+.zero-margin {
+    margin-bottom: 0px;
+    margin-left: 10px;
+}

@@ -2,7 +2,6 @@
     include("./config/header.php");
     include("./config/database.php");
 
-
     if(isset($_POST['login'])) {
         $email = "";
         $password = "";
@@ -39,23 +38,29 @@
         
     }
 ?>
-<div class="container">
-  <div class="row">
-    
-    <div class="col-3"></div>
-    <div class="col-6">
-        <h1>Login</h1>
-        <form action="" method="post">
-            <div class="form-group">
-                <label for="email">Email address:</label>
-                <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
+<body class="login">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
             </div>
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" placeholder="Enter password" id="pwd" name="password">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Login</h5>
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" placeholder="Enter password" id="pwd" name="password">
+                            </div>
+                            <button type="submit"  name="login" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>    
+                </div>
             </div>
-            <button type="submit"  name="login" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </div>
-  </div>
-</div>
+</body>

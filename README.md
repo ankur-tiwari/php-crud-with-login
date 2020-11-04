@@ -1,5 +1,6 @@
-#PHP Crud with Login
+##PHP Crud with Login
 
+##Installation
 1. Take a clone using `git clone https://github.com/ankur-tiwari/php-crud-with-login.git`
 2. Copy all the files inside your htdoc or www directory inside xamp or wamp folder
 3. Create database with name `auth`

@@ -1,5 +1,7 @@
 ## PHP Crud with Login
 
+CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are basic data manipulation for database. We've already learned how to perform create (i.e. insert), read (i.e. select), update and delete operations in previous chapters. In this tutorial we'll create a simple PHP application to perform all these operations on a MySQL database table at one place.
+
 ## Installation
 1. Take a clone using `git clone https://github.com/ankur-tiwari/php-crud-with-login.git`
 2. Copy all the files inside your htdoc or www directory inside xamp or wamp folder
